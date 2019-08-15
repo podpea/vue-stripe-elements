@@ -18,5 +18,6 @@ module.exports = {
   get instance() { return Stripe.instance },
   get createToken() { return Stripe.createToken },
   get createSource() { return Stripe.createSource },
-  get retrieveSource() { return Stripe.retrieveSource }
+  get retrieveSource() { return Stripe.retrieveSource },
+  get createPaymentMethod() { return Stripe.createPaymentMethod },
 }
